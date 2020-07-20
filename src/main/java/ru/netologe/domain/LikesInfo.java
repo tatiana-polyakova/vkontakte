@@ -1,6 +1,6 @@
 package ru.netologe.domain;
 
-public class Like {
+public class LikesInfo {
     private int count;
     private int userLikes;
     private int canLike;

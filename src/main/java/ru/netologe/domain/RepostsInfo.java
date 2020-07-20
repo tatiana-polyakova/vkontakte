@@ -1,6 +1,6 @@
 package ru.netologe.domain;
 
-public class Repost {
+public class RepostsInfo {
     private int count;
     private int userReposted;
 }

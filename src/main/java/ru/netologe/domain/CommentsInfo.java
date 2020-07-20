@@ -2,7 +2,7 @@ package ru.netologe.domain;
 
 import java.util.List;
 
-public class Comment {
+public class CommentsInfo {
 
     private String id;
     private int count;

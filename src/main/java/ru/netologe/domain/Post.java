@@ -1,10 +1,11 @@
 package ru.netologe.domain;
 
-import java.util.List;
-
 public class Post {
 
     private String id;
+    private CommentsInfo commentsInfo;
+    private RepostsInfo repostsInfo;
+    private LikesInfo likesInfo;
     private int ownerId;
     private int fromId;
     private int createdBy;
@@ -33,6 +34,30 @@ public class Post {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public CommentsInfo getCommentsInfo() {
+        return commentsInfo;
+    }
+
+    public void setCommentsInfo(CommentsInfo commentsInfo) {
+        this.commentsInfo = commentsInfo;
+    }
+
+    public RepostsInfo getRepostsInfo() {
+        return repostsInfo;
+    }
+
+    public void setRepostsInfo(RepostsInfo repostsInfo) {
+        this.repostsInfo = repostsInfo;
+    }
+
+    public LikesInfo getLikesInfo() {
+        return likesInfo;
+    }
+
+    public void setLikesInfo(LikesInfo likesInfo) {
+        this.likesInfo = likesInfo;
     }
 
     public int getOwnerId() {
